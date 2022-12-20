@@ -11,8 +11,33 @@
     <script type="module" src="js/index.js"></script>
   </head>
   <body>
-    <section class="container map-section">
-      <div class="map"></div>
+    <section class="container">
+      <div class="features grid grid-cols-3">
+        <div class="row row-1">
+          <svg class="icon row-icon">
+            <use xlink:href="img/sprite.svg#checkmark-done-outline"></use>
+          </svg>
+          <h2>Convenient</h2>
+          <p>
+            The combination of the power of internet and SMS makes it easy to
+            stay connected and informed on the go.
+          </p>
+        </div>
+        <div class="row row-2">
+          <svg class="icon row-icon">
+            <use xlink:href="img/sprite.svg#shield-checkmark-outline"></use>
+          </svg>
+          <h2>Safety</h2>
+          <p>Helps you to ensure your safety by avoiding waiting outside.</p>
+        </div>
+        <div class="row row-3">
+          <svg class="icon row-icon">
+            <use xlink:href="img/sprite.svg#time-outline"></use>
+          </svg>
+          <h2>Efficient</h2>
+          <p>Saves you more time and improve efficiency by avoiding idle.</p>
+        </div>
+      </div>
     </section>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzzI8u-NbT5W74AWaX2baqJt3Gv04Osik&callback=initMap&v=weekly"

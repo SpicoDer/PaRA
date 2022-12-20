@@ -132,8 +132,8 @@ a {
   margin-right: var(--space-100);
 }
 
-.grid-cols-2 {
-  grid-template-columns: 1fr 1fr;
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .container {
@@ -398,4 +398,31 @@ nav {
   width: 80%;
   min-height: 30rem;
   margin: 0 auto;
+}
+
+/* Feature Section */
+
+.features {
+  margin: var(--space-500);
+  gap: var(--space-800);
+  border-radius: 1rem;
+  padding: var(--space-400) var(--space-800);
+  box-shadow: 0 0 2.4rem rgba(0 0 0 / 0.1);
+  text-align: center;
+}
+
+.row-icon {
+  height: 3rem;
+  width: 3rem;
+  margin: var(--space-400) auto;
+  color: var(--tints-700);
+}
+
+.row h2 {
+  margin-bottom: var(--space-200);
+}
+
+.row p {
+  color: var(--light-text-color);
+  font-size: var(--font-400);
 }
