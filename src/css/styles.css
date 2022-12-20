@@ -418,11 +418,42 @@ nav {
   color: var(--tints-700);
 }
 
-.row h2 {
+.row h3 {
   margin-bottom: var(--space-200);
 }
 
 .row p {
   color: var(--light-text-color);
   font-size: var(--font-400);
+}
+
+/* Call to Action Section */
+
+.cta {
+  text-align: center;
+}
+
+h2 {
+  font-size: var(--font-800);
+  color: var(--text-color);
+  display: grid;
+  gap: var(--space-400);
+}
+.cta h2 {
+  margin-bottom: var(--space-600);
+}
+
+.cta .btn-cta {
+  padding: 1em 2em;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.cta .btn-cta:hover {
+  background-color: var(--tints-400);
+}
+.signup {
+  font-weight: bold;
 }
