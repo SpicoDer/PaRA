@@ -43,7 +43,93 @@
         </div>
       </div>
     </nav>
-    <main class="container"></main>
+
+    <main>
+      <section class="hero-section container">
+        <div class="hero-content">
+          <h1>Jeepney rides made easy.</h1>
+          <p>
+            With the passenger real-time alert application, finding and riding a
+            jeepney has never been easier. By using the app to track the
+            location of nearby jeepneys, you can save time and effort waiting at
+            the roadside.
+          </p>
+          <div class="hero-btn">
+            <a href="#" class="btn btn--primary-solid margin-right-space"
+              >Signup</a
+            >
+            <a href="#" class="btn btn--primary-outline">Explore</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="img/hero-img.png" alt="Picture of jeepney" class="jeep" />
+        </div>
+      </section>
+
+      <section class="map-section">
+        <h2>Live Map</h2>
+        <p>Check below the current Jeepney PaRA travelling.</p>
+        <div class="map"></div>
+      </section>
+
+      <section class="container">
+        <div class="features grid">
+          <div class="row row-1">
+            <svg class="icon row-icon">
+              <use xlink:href="img/sprite.svg#checkmark-done-outline"></use>
+            </svg>
+            <h3>Convenient</h3>
+            <p>
+              The combination of the power of internet and SMS makes it easy to
+              stay connected and informed on the go.
+            </p>
+          </div>
+          <div class="row row-2">
+            <svg class="icon row-icon">
+              <use xlink:href="img/sprite.svg#shield-checkmark-outline"></use>
+            </svg>
+            <h3>Safety</h3>
+            <p>Helps you to ensure your safety by avoiding waiting outside.</p>
+          </div>
+          <div class="row row-3">
+            <svg class="icon row-icon">
+              <use xlink:href="img/sprite.svg#time-outline"></use>
+            </svg>
+            <h3>Efficient</h3>
+            <p>Saves you more time and improve efficiency by avoiding idle.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="cta">
+          <h2>
+            <div>Get Started with</div>
+            <div><span class="PaRA">PaRA </span>today</div>
+          </h2>
+          <span class="btn btn-cta"
+            ><span class="signup">Sign up</span> - it's free</span
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">
+        <svg class="icon">
+          <use xlink:href="img/sprite.svg#icon-light"></use>
+        </svg>
+        <span>PaRA</span>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookie</a></li>
+        </ul>
+      </div>
+      <div class="footer-credits"><p>©2022 SpiCoder</p></div>
+    </footer>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzzI8u-NbT5W74AWaX2baqJt3Gv04Osik&callback=initMap&v=weekly"
       defer
