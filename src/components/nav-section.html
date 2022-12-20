@@ -1,27 +1,52 @@
-<nav>
-  <div class="nav-logo"><img src="img/logo-light.svg" alt="" /></div>
-  <div class="nav-icon">
-    <svg class="icon icon-menu">
-      <use xlink:href="img/sprite.svg#menu-outline"></use>
-    </svg>
-    <svg class="icon icon-close">
-      <use xlink:href="img/sprite.svg#close-outline"></use>
-    </svg>
-  </div>
-  <div class="nav-links">
-    <div class="nav-others">
-      <ul>
-        <li><a href="#">Use cases</a></li>
-        <li><a href="#">Research</a></li>
-        <li><a href="#">Developers</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </div>
-    <div class="nav-sign">
-      <ul>
-        <li><a href="#">Sign in</a></li>
-        <li class="btn btn--nav"><a href="#">Sign up</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script type="module" src="js/index.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <svg class="icon">
+          <use xlink:href="img/sprite.svg#icon-light"></use>
+        </svg>
+        <span>PaRA</span>
+      </div>
+      <div class="nav-icon">
+        <svg class="icon icon-menu">
+          <use xlink:href="img/sprite.svg#menu-outline"></use>
+        </svg>
+        <svg class="icon icon-close">
+          <use xlink:href="img/sprite.svg#close-outline"></use>
+        </svg>
+      </div>
+      <div class="nav-links">
+        <div class="nav-others">
+          <ul>
+            <li><a href="#">Use cases</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div class="nav-sign">
+          <ul>
+            <li><a href="#">Sign in</a></li>
+            <li class="btn btn--nav"><a href="#">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container"></main>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzzI8u-NbT5W74AWaX2baqJt3Gv04Osik&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>

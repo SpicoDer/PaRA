@@ -101,8 +101,8 @@ a {
 /* General Styles */
 
 .icon {
-  width: 64px;
-  height: 64px;
+  width: 3rem;
+  height: 3rem;
 }
 
 body {
@@ -256,20 +256,21 @@ a {
   fill: var(--primary-color) !important;
 }
 
+main {
+  background-color: red !important;
+  height: 400px;
+  width: 400px;
+}
+
 nav {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: var(--space-200) var(--space-400);
-  row-gap: var(--space-400);
 }
 
 .nav-icon {
   justify-self: end;
-}
-
-.icon-menu {
-  width: 3rem;
-  height: 3rem;
 }
 
 .icon-menu.open {
@@ -277,8 +278,6 @@ nav {
 }
 
 .icon-close {
-  width: 3rem;
-  height: 3rem;
   display: none;
 }
 
@@ -287,13 +286,24 @@ nav {
 }
 
 .nav-links {
-  grid-column: span 2;
   display: flex;
   flex-direction: column;
   gap: var(--space-400);
-  padding-top: var(--space-400);
+
+  grid-column: span 2;
   font-weight: 500;
   font-size: var(--font-500);
+
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: all 0.3s;
+
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  width: 100%;
+  padding: var(--space-400);
 }
 
 .nav-links ul {
@@ -308,19 +318,11 @@ nav {
   padding-bottom: var(--space-300);
 }
 
-.nav-links .open {
+.nav-links.open {
   opacity: 100;
   pointer-events: auto;
   visibility: visible;
   transition: all 0.3s;
-}
-
-.nav-sign,
-.nav-others {
-  opacity: 0;
-  transition: all 0.3s;
-  pointer-events: none;
-  visibility: hidden;
 }
 
 .nav-sign .btn--nav {
@@ -331,6 +333,7 @@ nav {
 .nav-sign li {
   border: none;
 }
+
 .nav-sign li:last-child {
   text-align: center;
   padding: 0.75em 2em;
