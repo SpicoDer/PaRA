@@ -138,7 +138,7 @@ a {
 
 .container {
   max-width: 75rem;
-  margin: var(--space-900) auto;
+  margin: 0 auto var(--space-900) auto;
 }
 
 .btn {
@@ -239,8 +239,21 @@ a {
 /* Navigation Bar */
 
 .nav-logo {
-  width: 120px;
-  height: 60px;
+  display: flex;
+  font-weight: bold;
+  font-size: var(--font-700);
+  align-items: center;
+  gap: var(--space-100);
+}
+
+.nav-logo .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  transition: all 0.3s;
+}
+
+.nav-logo .icon:hover {
+  fill: var(--primary-color) !important;
 }
 
 nav {
@@ -427,6 +440,12 @@ nav {
   font-size: var(--font-400);
 }
 
+@media (min-width: 48em) {
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* Call to Action Section */
 
 .cta {
@@ -434,7 +453,7 @@ nav {
 }
 
 h2 {
-  font-size: var(--font-800);
+  font-size: var(--font-700);
   color: var(--text-color);
   display: grid;
   gap: var(--space-400);
@@ -456,6 +475,12 @@ h2 {
 }
 .signup {
   font-weight: bold;
+}
+
+@media (min-width: 32.5em) {
+  h2 {
+    font-size: var(--font-800);
+  }
 }
 
 /* Footer Section */
