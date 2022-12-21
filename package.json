@@ -2,7 +2,7 @@
   "name": "para",
   "version": "1.0.0",
   "description": "Landing page for Passenger Real-time Alert Application",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
