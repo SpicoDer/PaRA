@@ -185,6 +185,7 @@ h1 {
 
 .hero-section {
   padding: var(--space-400);
+  margin-bottom: 4rem;
 }
 
 .hero-img {
