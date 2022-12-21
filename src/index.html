@@ -3,46 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="Passenger real-time alert application website"
+    />
+    <title>PaRA - Pessenger Real-Time Alert</title>
 
-    <title>Document</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <script type="module" src="js/index.js"></script>
   </head>
   <body>
-    <nav>
-      <div class="nav-logo">
-        <svg class="icon">
-          <use xlink:href="img/sprite.svg#icon-light"></use>
-        </svg>
-        <span>PaRA</span>
-      </div>
-      <div class="nav-icon">
-        <svg class="icon icon-menu">
-          <use xlink:href="img/sprite.svg#menu-outline"></use>
-        </svg>
-        <svg class="icon icon-close">
-          <use xlink:href="img/sprite.svg#close-outline"></use>
-        </svg>
-      </div>
-      <div class="nav-links">
-        <div class="nav-others">
-          <ul>
-            <li><a href="#">Use cases</a></li>
-            <li><a href="#">Research</a></li>
-            <li><a href="#">Developers</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <svg class="icon">
+            <use xlink:href="img/sprite.svg#icon-light"></use>
+          </svg>
+          <span>PaRA</span>
         </div>
-        <div class="nav-sign">
-          <ul>
-            <li><a href="#">Sign in</a></li>
-            <li class="btn btn--nav"><a href="#">Sign up</a></li>
-          </ul>
+        <div class="nav-icon">
+          <svg class="icon icon-menu">
+            <use xlink:href="img/sprite.svg#menu-outline"></use>
+          </svg>
+          <svg class="icon icon-close">
+            <use xlink:href="img/sprite.svg#close-outline"></use>
+          </svg>
         </div>
-      </div>
-    </nav>
+        <div class="nav-links">
+          <div class="nav-others">
+            <ul>
+              <li><a href="#">Use cases</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="nav-sign">
+            <ul>
+              <li><a href="#">Sign in</a></li>
+              <li class="btn btn--nav"><a href="#">Sign up</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <main>
       <section class="hero-section container">
@@ -62,7 +85,7 @@
           </div>
         </div>
         <div class="hero-img">
-          <img src="img/hero-img.png" alt="Picture of jeepney" class="jeep" />
+          <img src="img/hero-img.webp" alt="Picture of jeepney" class="jeep" />
         </div>
       </section>
 
@@ -101,17 +124,17 @@
         </div>
       </section>
 
-      <section class="container">
+      <div class="container">
         <div class="cta">
-          <h2>
+          <div class="cta-text">
             <div>Get Started with</div>
             <div><span class="PaRA">PaRA </span>today</div>
-          </h2>
+          </div>
           <span class="btn btn-cta"
             ><span class="signup">Sign up</span> - it's free</span
           >
         </div>
-      </section>
+      </div>
     </main>
 
     <footer>

@@ -426,6 +426,7 @@ nav {
 .map-section h2 {
   color: #fff;
   text-align: center;
+  font-size: var(--font-600);
   margin-top: var(--space-400);
   margin-bottom: var(--space-400);
 }
@@ -433,13 +434,13 @@ nav {
 .map-section p {
   margin-bottom: var(--space-500);
   text-align: center;
-  font-size: var(--font-400);
+  font-size: var(--font-450);
   color: #fff;
 }
 
 @media (min-width: 40em) {
   .map-section h2 {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
   .map-section p {
     font-size: var(--font-500);
@@ -485,13 +486,13 @@ nav {
   margin: 20rem auto;
 }
 
-h2 {
+.cta-text {
   font-size: var(--font-700);
   color: var(--text-color);
   display: grid;
   gap: var(--space-400);
 }
-.cta h2 {
+.cta .cta-text {
   margin-bottom: var(--space-600);
 }
 
@@ -524,7 +525,7 @@ h2 {
 }
 
 @media (min-width: 32.5em) {
-  h2 {
+  .cta-text {
     font-size: var(--font-800);
   }
 }
