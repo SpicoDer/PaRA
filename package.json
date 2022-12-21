@@ -1,0 +1,29 @@
+{
+  "name": "para",
+  "version": "1.0.0",
+  "description": "Landing page for Passenger Real-time Alert Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpicoDer/PaRA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpicoDer/PaRA/issues"
+  },
+  "homepage": "https://github.com/SpicoDer/PaRA#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.2",
+    "@parcel/transformer-webmanifest": "^2.8.2",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "parcel": "^2.8.2",
+    "postcss": "^8.4.20"
+  }
+}

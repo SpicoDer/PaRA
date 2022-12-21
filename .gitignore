@@ -1,2 +1,5 @@
 .vscode
 .prettiercc
+.parce-cache
+dist/
+node_modules/
