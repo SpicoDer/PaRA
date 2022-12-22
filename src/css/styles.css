@@ -521,7 +521,8 @@ nav {
 .cta .btn-cta:hover {
   background-color: var(--tints-400);
 }
-.signup {
+.btn-cta .signup {
+color: #fff:
   font-weight: bold;
 }
 
