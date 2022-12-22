@@ -521,9 +521,9 @@ nav {
 .cta .btn-cta:hover {
   background-color: var(--tints-400);
 }
-.btn-cta a {
-color: #fff !important:
-  font-weight: bold !important;
+.signup {
+color: #fff:
+  font-weight: bold;
 }
 
 @media (min-width: 32.5em) {
